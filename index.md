@@ -7,70 +7,70 @@
 
 <details>
  
-<summary>How to setup HDR with ReShade</summary><br>
+	<summary>How to setup HDR with ReShade</summary><br>
 
-### Using Special K with Lilium's Inverse Tone Mapping
-
-
-**WARNING: DO NOT USE WITH RenoDX!!!** 
-> RenoDX does not work with RTGI or other shaders that don't play well with HDR.
+	### Using Special K with Lilium's Inverse Tone Mapping	
 
 
-**This guide is currently only tested with DirectX 11 games.**
-
-**If the game supports HDR, make sure HDR is turned off within the game's settings before continuing.**
-
-> The purpose of this guide is to help you get HDR working with ReShade shaders that don't like HDR, such as RTGI. 
->
-> Some games may require additional steps. Use with other mods or tools not supported.
-
-> **Note: Otis' Camera Tools are generally not compatible with SpecialK. Use Lilium's fork of DXVK or Lilium's AutoHDR addon instead. 
-> These methods are currently not covered in this guide but may be added in the future.
-
-**1. Download the latest version of the Special K installer from the Special K Discord and install Special K**
-- [Special K Discord Invite](https://discord.gg/SpecialK)
-
-- Installer will be found under the installers channel
-
-- **OPTIONAL: Configure SK so it auto updates anytime a new installer is posted on the SK Discord**
-![image1](GuideImages/media/image1.png)
-
-**2. Launch the game from the SK Launcher by clicking on it, then click Play.**
-![image2](GuideImages/media/image2.png)
+	**WARNING: DO NOT USE WITH RenoDX!!!** 
+	> RenoDX does not work with RTGI or other shaders that don't play well with HDR.
 
 
-**3. You should see the Special K bar on top of your screen when the game launches. 
+	**This guide is currently only tested with DirectX 11 games.**	
+
+	**If the game supports HDR, make sure HDR is turned off within the game's settings before continuing.**
+
+	> The purpose of this guide is to help you get HDR working with ReShade shaders that don't like HDR, such as RTGI. 
+	>
+	> Some games may require additional steps. Use with other mods or tools not supported.
+
+	> **Note: Otis' Camera Tools are generally not compatible with SpecialK. Use Lilium's fork of DXVK or Lilium's AutoHDR addon instead. 
+	> These methods are currently not covered in this guide but may be added in the future.
+
+	**1. Download the latest version of the Special K installer from the Special K Discord and install Special K**
+	- [Special K Discord Invite](https://discord.gg/SpecialK)
+
+	- Installer will be found under the installers channel
+
+	- **OPTIONAL: Configure SK so it auto updates anytime a new installer is posted on the SK Discord**
+	![image1](GuideImages/media/image1.png)
+
+	**2. Launch the game from the SK Launcher by clicking on it, then click Play.**
+	![image2](GuideImages/media/image2.png)
 
 
-**4. Press Ctrl + Shift + Backspace to open the Special K menu**
+	**3. You should see the Special K bar on top of your screen when the game launches. 
 
 
-**5. Click HDR > HDR Setup > Click the Radial next to scRGB**
-![image3](GuideImages/media/image3.png)
+	**4. Press Ctrl + Shift + Backspace to open the Special K menu**
 
 
-**6. Press Alt + Enter a few times to activate HDR. If this doesn't work, exit the game and restart it from the Special K launcher again.**
+	**5. Click HDR > HDR Setup > Click the Radial next to scRGB**
+	![image3](GuideImages/media/image3.png)
 
 
-<details open> 
-
-<summary>Special K HDR Calibration</summary><br>
-
-> If you have already calibrated HDR within SpecialK continue onto Step 7.
-
-**A. Open the SK menu > HDR > HDR Setup**
+	**6. Press Alt + Enter a few times to activate HDR. If this doesn't work, exit the game and restart it from the Special K launcher again.**
 
 
-**B. Click on Profile Display Capabilities to calibrate Special K to your monitor.**
-![image4](GuideImages/media/image4.png)
+		<details open> 
+
+		<summary>Special K HDR Calibration</summary><br>
+
+		> If you have already calibrated HDR within SpecialK continue onto Step 7.
+
+		**A. Open the SK menu > HDR > HDR Setup**
 
 
-**C. Make sure sRGB Inverse is selected under Advanced, otherwise the test pattern won't show up.** 
-- After your display is calibrated, you won't need to do this step ever again in Special K unless you get a new monitor.
-![image5](GuideImages/media/image5.png)
+		**B. Click on Profile Display Capabilities to calibrate Special K to your monitor.**
+		![image4](GuideImages/media/image4.png)
 
-</details>
 
-**7. TO BE CONTINUED...**
+		**C. Make sure sRGB Inverse is selected under Advanced, otherwise the test pattern won't show up.** 
+		- After your display is calibrated, you won't need to do this step ever again in Special K unless you get a new monitor.
+		![image5](GuideImages/media/image5.png)
+
+		</details>
+
+	**7. TO BE CONTINUED...**
 
 </details>
