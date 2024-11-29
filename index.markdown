@@ -9,7 +9,9 @@ layout: default
 
 * * *
 
-<details><summary>**How to setup HDR with ReShade**</summary>
+<details>
+<summary><b>How to setup HDR with ReShade</b></summary><br/>
+
 
 	### Using Special K with Lilium's Inverse Tone Mapping	
 
