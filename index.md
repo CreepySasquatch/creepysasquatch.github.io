@@ -2,83 +2,82 @@
 layout: default
 ---
 
->Guides are a work in progress and will be updated over time
+##Guides are a work in progress and will be updated over time
+
 
 ### PDF versions of guides can be found [here](https://github.com/CreepySasquatch/reshade-guides)
 
+* * *
+
 <details>
-  <summary>HDR ReShade Guide</summary>
+ 
+<summary>How to setup HDR with ReShade</summary>
 
-**How to setup HDR with ReShade**
+###Using Special K with Lilium's Inverse Tone Mapping
 
-**Using Special K with Lilium's Inverse Tone Mapping**
 
-> **WARNING: DO NOT USE WITH RenoDX!!! RenoDX does not work with RTGI or
-> other shaders that don't play well with HDR.**
+**WARNING: DO NOT USE WITH RenoDX!!!** 
+> RenoDX does not work with RTGI or other shaders that don't play well with HDR.
+
 
 **This guide is currently only tested with DirectX 11 games.**
 
-> **If the game supports HDR, make sure HDR is turned off within the
-> game's settings before continuing.**
+**If the game supports HDR, make sure HDR is turned off within the game's settings before continuing.**
 
-**The purpose of this guide is to help you get HDR working with ReShade
-shaders that don't like HDR, such as RTGI. Some games may require
-additional steps. Use with other mods or tools not supported.**
+> The purpose of this guide is to help you get HDR working with ReShade shaders that don't like HDR, such as RTGI. 
+>
+> Some games may require additional steps. Use with other mods or tools not supported.
 
-> **Note: Otis' Camera Tools are generally not compatible with Special
-> K. Use Lilium's fork of DXVK or Lilium's AutoHDR addon instead. These
-> methods are currently not covered in this guide but may be added in
-> the future.**
->
-> **1.Download the latest version of the Special K installer from the
-> Special K Discord and** **install Special K**\
-> •Special K Discord Invite:\
-> •Installer will be found under the installers channel:\
-> 3 •OPTIONAL: Configure SK so it auto updates anytime a new installer
-> is posted on the SK Discord
->
-> ![](GuideImages/media/image1.png){width="5.554166666666666in"
-> height="1.7791666666666666in"}
->
-> **2.Launch the game from the SK Launcher by clicking on it, then click
-> Play.**
->
-> ![](GuideImages/media/image2.png){width="3.4097222222222223in"
-> height="2.879166666666667in"}
->
-> **3.You should see the Special K bar on top of your screen when the
-> game launches. 4.Press Ctrl + Shift + Backspace to open the Special K
-> menu**\
-> **5.Click HDR \> HDR Setup \> Click the Radial next to scRGB**
->
-> ![](GuideImages/media/image3.png){width="3.720832239720035in"
-> height="1.9277777777777778in"}
->
-> **6.Press Alt + Enter a few times to activate HDR. If this doesn't
-> work, exit the game and** **restart it from the Special K launcher
-> again.**
->
-> **7.If this is your first time using Special K click on Profile
-> Display Capabilities to calibrate** **Special K to your monitor.**
->
-> ![](GuideImages/media/image4.png){width="6.5in"
-> height="0.9194444444444444in"}
->
-> **8.Make sure sRGB Inverse is selected under Advanced, otherwise the
-> test pattern won't show up. After your display is calibrated, you
-> won't need to do this step ever again in**
->
-> **Special K unless you get a new monitor.**
->
-> ![](GuideImages/media/image5.png){width="6.5in"
-> height="4.165276684164479in"}
->
-> **9.Open the SK menu, HDR \> HDR Setup**\
-> **10.Check all 6 Remaster boxes**
->
-> ![](GuideImages/media/image6.png){width="5.313888888888889in"
-> height="1.1916666666666667in"}
->
+> **Note: Otis' Camera Tools are generally not compatible with SpecialK. Use Lilium's fork of DXVK or Lilium's AutoHDR addon instead. 
+> These methods are currently not covered in this guide but may be added in the future.
+
+**1. Download the latest version of the Special K installer from the Special K Discord and install Special K**
+- [Special K Discord Invite](https://discord.gg/SpecialK)
+
+- Installer will be found under the installers channel
+
+- **OPTIONAL: Configure SK so it auto updates anytime a new installer is posted on the SK Discord**
+![image1](GuideImages/media/image1.png)
+
+**2. Launch the game from the SK Launcher by clicking on it, then click Play.**
+![image2](GuideImages/media/image2.png)
+
+
+**3. You should see the Special K bar on top of your screen when the game launches. 
+
+
+**4. Press Ctrl + Shift + Backspace to open the Special K menu**
+
+
+**5. Click HDR > HDR Setup > Click the Radial next to scRGB**
+![image3](GuideImages/media/image3.png)
+
+
+**6. Press Alt + Enter a few times to activate HDR. If this doesn't work, exit the game and restart it from the Special K launcher again.**
+
+
+<details open> 
+
+<summary>Special K HDR Calibration</summary>
+
+> If you have already calibrated HDR within SpecialK continue onto Step 7.
+
+**A. Open the SK menu > HDR > HDR Setup**
+
+
+**B. Click on Profile Display Capabilities to calibrate Special K to your monitor.**
+![image4](GuideImages/media/image4.png)
+
+
+**C. Make sure sRGB Inverse is selected under Advanced, otherwise the test pattern won't show up.** 
+- After your display is calibrated, you won't need to do this step ever again in Special K unless you get a new monitor.
+![image5](GuideImages/media/image5.png)
+
+</details>
+
+**7. Open the SK menu > HDR > HDR Setup**
+
+
 > **11.Exit the HDR Configuration menu of SK but keep the SK main menu
 > open**\
 > **12.Toward the buttom of the SK menu click on Plug-Ins \>
