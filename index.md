@@ -33,10 +33,10 @@
 	- Installer will be found under the installers channel
 
 	- **OPTIONAL: Configure SK so it auto updates anytime a new installer is posted on the SK Discord**
-	![image1](GuideImages/media/image1.png)
+	![image1](https://github.com/CreepySasquatch/creepysasquatch.github.io/tree/main/GuideImages/media/image1.png)
 
 	**2. Launch the game from the SK Launcher by clicking on it, then click Play.**
-	![image2](GuideImages/media/image2.png)
+	![image2](https://github.com/CreepySasquatch/creepysasquatch.github.io/tree/main/GuideImages/media/image2.png)
 
 
 	**3. You should see the Special K bar on top of your screen when the game launches. 
@@ -46,31 +46,27 @@
 
 
 	**5. Click HDR > HDR Setup > Click the Radial next to scRGB**
-	![image3](GuideImages/media/image3.png)
+	![image3](https://github.com/CreepySasquatch/creepysasquatch.github.io/tree/main/GuideImages/media/image3.png)
 
 
 	**6. Press Alt + Enter a few times to activate HDR. If this doesn't work, exit the game and restart it from the Special K launcher again.**
 
 
-		<details open> 
 
-		<summary>Special K HDR Calibration</summary><br>
+	> If you have already calibrated HDR within SpecialK continue onto Step 7.
 
-		> If you have already calibrated HDR within SpecialK continue onto Step 7.
-
-		**A. Open the SK menu > HDR > HDR Setup**
+	**A. Open the SK menu > HDR > HDR Setup**
 
 
-		**B. Click on Profile Display Capabilities to calibrate Special K to your monitor.**
-		![image4](GuideImages/media/image4.png)
+	**B. Click on Profile Display Capabilities to calibrate Special K to your monitor.**
+	![image4](https://github.com/CreepySasquatch/creepysasquatch.github.io/tree/main/GuideImages/media/image4.png)
 
 
-		**C. Make sure sRGB Inverse is selected under Advanced, otherwise the test pattern won't show up.** 
-		- After your display is calibrated, you won't need to do this step ever again in Special K unless you get a new monitor.
-		![image5](GuideImages/media/image5.png)
+	**C. Make sure sRGB Inverse is selected under Advanced, otherwise the test pattern won't show up.** 
+	- After your display is calibrated, you won't need to do this step ever again in Special K unless you get a new monitor.
+	![image5](https://github.com/CreepySasquatch/creepysasquatch.github.io/tree/main/GuideImages/media/image5.png)
 
-		</details>
-
+	
 	**7. TO BE CONTINUED...**
 
 </details>
