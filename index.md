@@ -7,7 +7,7 @@
 
 <details>
  
-<summary>**How to setup HDR with ReShade**</summary>
+<summary>How to setup HDR with ReShade</summary><br>
 
 ### Using Special K with Lilium's Inverse Tone Mapping
 
@@ -54,7 +54,7 @@
 
 <details open> 
 
-<summary>Special K HDR Calibration</summary>
+<summary>Special K HDR Calibration</summary><br>
 
 > If you have already calibrated HDR within SpecialK continue onto Step 7.
 
