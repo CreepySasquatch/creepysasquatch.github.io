@@ -33,6 +33,8 @@ plugins:
   - jekyll-feed
 show_downloads: false
 markdown: kramdown
+kramdown:
+  parse_block_html: true    
 highlighter: rouge
 
 # Exclude from processing.
