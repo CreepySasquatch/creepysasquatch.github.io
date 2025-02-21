@@ -5,7 +5,7 @@ layout: default
 * * *
 
 ## HDR with ReShade Guides
-[HDR with ReShade for Dummies: General overview of how to use ReShade with HDR](./reshade-guides/HDR-with-ReShade-for-Dummies)
+[HDR with ReShade for Dummies: General overview of how to use ReShade with HDR](./reshade-guides/HDR-with-ReShade-for-Dummies.pdf)
 
 [Method 1: Special K with Lilium's Inverse Tonemapping](./reshade-guides/Method-1-SK-Lilium-Inverse-Tonemapping.pdf)
 
